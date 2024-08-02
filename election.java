@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class voting {
+public class election {
 
     Scanner sc = new Scanner(System.in);
 
@@ -103,7 +103,7 @@ public class voting {
     }
 
     public static void main(String arg[]) {
-        voting obj = new voting();
+        election obj = new election();
 
         System.out.println(
                 "Note: Adjust the howManyVotes variable to adjust the allowed voting members count. Result will be displayed after the voting counts ended.");
